@@ -1,7 +1,9 @@
-import react from 'react';
-import './App.css';
 import UseEffect from './hooks/UseEffect';
 import UseState from './hooks/UseState';
+import './App.css';
+import UseContext from './hooks/UseContext';
+import UseMemo from './hooks/UseMemo';
+
 
 function App() {
   return (
@@ -10,6 +12,10 @@ function App() {
       <UseState />
       <br /><br />
       <UseEffect />
+      <br /> <br/>
+      <UseContext />
+      <br /> <br/>
+      <UseMemo />
     </div>
   );
 }
