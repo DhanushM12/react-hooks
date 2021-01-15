@@ -4,6 +4,7 @@ import './App.css';
 import UseContext from './hooks/UseContext';
 import UseMemo from './hooks/UseMemo';
 import UseRef from './hooks/UseRef';
+import UseCallback from './hooks/UseCallback';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <UseMemo />
       <br /> <br/>
       <UseRef />
+      <br /> <br/>
+      <UseCallback />
     </div>
   );
 }
