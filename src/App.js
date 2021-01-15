@@ -3,6 +3,7 @@ import UseState from './hooks/UseState';
 import './App.css';
 import UseContext from './hooks/UseContext';
 import UseMemo from './hooks/UseMemo';
+import UseRef from './hooks/UseRef';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <UseContext />
       <br /> <br/>
       <UseMemo />
+      <br /> <br/>
+      <UseRef />
     </div>
   );
 }
